@@ -1,0 +1,3 @@
+This repository contains the system prompts for mathematical research described at "A Mathematician's Guide to Large Language Models." Due to length limits for GPT system prompts, the primary system prompt has been broken into two chunks. Detailed setup instructions are in Appendix A of the manuscript.
+
+The file math_system_prompt.txt contains global rules and several callable functions (ingest, referee, and question). Other functions (lit-search, generalize) are contained in other_math_modes.txt. They can be copied into individual GPT sessions. The file quickstart_prompt.txt provides a short mathematical system prompt which can be easily experimented with.
